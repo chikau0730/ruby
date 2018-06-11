@@ -8,6 +8,6 @@ def give_me_block
 end
 
 give_me_block do
-  ary = [1,2,3]
+  ary = [1, 2, 3]
   @b = ary.map{|e| e + e}
 end
