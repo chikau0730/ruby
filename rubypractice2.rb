@@ -4,7 +4,7 @@ def give_me_block
     @b.each do |k|
      sum += k
     end  
-   puts sum
+   p sum
 end
 
 give_me_block do
